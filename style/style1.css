@@ -1,0 +1,96 @@
+body {
+    background-color: #6f9268;
+    font: 400 18px/24px "Poppins";
+    font-size: 24px;
+    color: #e6e5e1;
+    background-size: cover;
+    background-image: url(../img/shadow.png), url(../img/back1.png), url(../img/back2.png);
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    max-width: 1300px;
+}
+
+@media screen and (max-width:900px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: none;
+        align-items: start
+    }
+    .left_header {
+        margin-bottom: 20px;
+    }
+}
+
+header {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_header {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 30px;
+}
+
+.right_header {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 30px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.border_form {
+    height: 15px;
+    padding: 6px;
+    background-color: none;
+    border: solid white;
+    border-width: 1px;
+    border-radius: 120px;
+}
+
+input {
+    margin: 10px;
+    height: 20px;
+    background-color: none;
+    border: none;
+    color: #e6e5e1;
+    font-size: 18px;
+    font-weight: 200;
+    max-width: 150px;
+}
+
+.hd_ref {
+    display: flex;
+    color: #e6e5e1;
+    margin-right: 60px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.home {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.event_txt {
+    font: 300 18px "Oranienbaum";
+    color: black;
+    margin-top: 50px;
+    width: 1100px;
+}
+
+.about_txt {
+    width: 1200px;
+}
